@@ -1,4 +1,4 @@
-# Particle-Simulation
+# PS
 Hansen Zhao : zhaohs12@163.com
 
 ### Init Field
