@@ -29,7 +29,7 @@ follow the command above, and will create a field like:
 <-Inf> 2.00$0.20 <-5.0> 1.00$0.00 <-1.0> 0.20$1.00 <1.0> 1.00$0.00 <Inf>  
 ```
 ```
-\<a\> b$c \<d\>  
+<a> b$c <d>  
 ```
 means region from a to d with diffuse coefficient of b and bias of c
 
