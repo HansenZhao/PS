@@ -7,7 +7,7 @@ p = ParticleField(1,0)
 ```
 init a field with diffuse coefficient of 1.0 and bias of 0.0
 bias should be set ranging from -1.0 to 1.0, the sign of bias means the direction of movement that the particle likely to take in every movement in this region  
-absolute value of bias means the probability of force to move along the direction
+absolute value of bias means the probability of forcing the particle to move along the direction
 For example, bias = -0.5 means a probability of 50% where the program will force the particle move to -inf direction.
 
 ### addRegion
