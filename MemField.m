@@ -124,6 +124,8 @@ classdef MemField < handle
             plot(hAxes,(1:1:obj.simuResult.stepNum)' * obj.simuResult.interval,...
                  obj.simuResult.data);
             title('Trajectory of simulated particle');
+            box on;
+            
             hA2 = subplot(2,1,2);
             hold on;
             
@@ -136,6 +138,7 @@ classdef MemField < handle
             
             plot(hA2,(1:1:obj.simuResult.stepNum)' * obj.simuResult.interval,...
                      obj.pos2vel(),'DisplayName','velocity');
+            box on;
             title('Velocity of simulated particle');
         end
 	end
